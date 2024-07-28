@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audios, Imagens e Videos</title>
+    <style>
+        audio {
+            background-color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+
+    <p>Tente Abrir Esse Site Em Varios Dispositivos Diferentes Ou Simplesmente Aumente e Diminua o Tamanho do Seu Navegador</p>
+
+    <picture>
+        <source media="(max-width: 700px )" srcset="foto-p.png" type="image/png">
+
+        <source media="(max-width:1050px )" srcset="foto-m.png" type="image/png">
+
+        <img src="foto-g.png" alt="Imagens Fléxiveis">
+
+    </picture>
+
+<h1>Reproduzindo Áudios</h1>
+    <p>Vamos Aprender a Reproduzir Áudios em HTML5.</p>
+
+        <audio preload="metadata" controls loop>
+            
+            <source src="guanacast-33.mp3" type="audio/mpeg">
+
+            <source src="guanacast-33.ogg" type="audio/ogg">
+
+            <source src="guanacast-33.wav" type="audio/wav">
+
+            <p>Infelizmente seu navegador nao consegue reproduzir o audio. <a href="guanacast-33.mp3">clique aqui para baixar o arquivo MP3</a></p>
+
+
+
+        </audio>
+<br>
+        <audio src="808 Doorbell Chime - Unicorn Heads.mp3" preload="metadata" controls></audio>
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 6</title>
+    <style>
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagens Fléxiveis Largura</h1>
+    
+    <picture>
+        <source media="(max-width:520px)" srcset="midias/paisagem-p.png" type="image/png">
+        <source media="(max-width:800px)" srcset="midias/paisagem-m.png" type="image/png">
+        <img src="midias/paisagem-g.png" alt="imagem 1">
+
+    </picture>
+
+    
+    
+    <img src="midias/paisagem-g.png" alt="imagem 1" width="100%" height="auto">
+    <img src="midias/paisagem-m.png" alt="imagem 2" width="100%" height="auto">
+    <img src="midias/paisagem-p.png" alt="imagem 3" width="100%" height="auto">
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+        body {
+            font-family: "DM Sans", Arial, Helvetica, sans-serif; 
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            margin: 0px;
+            
+            background-color: rgb(231, 231, 231);
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 0px 0px 0px 0px;
+            box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.308);
+        }
+
+        main {
+            background-color: white;
+            padding: 30px 20px 40px 20px;
+            margin: 70px 40px 80px 40px;
+            border-radius: 30px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: rgba(0, 0, 0, 0.281);
+            box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.281);
+        }
+
+        footer {
+            background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(83, 83, 83));
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        
+        footer > .textos_rodape {
+            margin: 10px 0px 10px 0px;
+        }
+        footer > #Titulo_Rodape {
+            margin: 10px 0px 10px 0px;
+        }
+
+        article {
+            background-color: rgba(209, 209, 209, 0.849);
+            padding: 10px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        
+        }
+        nav {
+            background-color: rgb(218, 218, 218);
+            padding: 3px;
+            box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.308);
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+            margin-right: 40px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        .Assuntos > .Titulo_Assuntos{
+            text-align: center;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 20px;
+        }
+        .artigos {
+            box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.281);
+            padding: 20px;
+            border-radius: 10px 50px;
+        }
+        .escrito-por > p {
+            margin: 0px;
+        }
+        .escrito-por {
+            display: flex;
+            width: 200px;
+            border-radius: 20px;
+            margin: 0px 0px 20px 0px;
+            padding: 4px 4px 4px 13px;
+            background-color: rgb(179, 179, 179);
+            box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.281);
+        }
+        #footer-divison {
+            background-color: #9b9b9b; 
+            height: 50px;
+            width: auto;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #footer-divison > #texto-footer-divison {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            color: white;
+            margin: 0px;
+        }
+        .footer-gradient {
+            height: 10px;
+            width: auto;
+            background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(59, 59, 59), rgb(122, 122, 122));
+        }
+        #header-gradient {
+            height: 10px;
+            width: auto;
+            background-image: linear-gradient(to right, black, rgb(59, 59, 59), rgb(122, 122, 122));
+        }
+    </style>
+</head>
+<body>
+    <header id="Cabeçalho">
+        <h1 id="Texto_Cabeçalho">Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <section id="header-gradient"></section>
+    <main>
+        <section class="Assuntos">
+            <h1 class="Titulo_Assuntos">Economia</h1>
+        </section>
+        <section ic="Noticias">
+            <article class="artigos">
+                <h2>Noticias dolar</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatem impedit corrupti architecto labore nulla, autem consequuntur, recusandae voluptas praesentium dignissimos ad cumque nihil saepe rerum possimus atque inventore beatae.</p>
+                <aside class="escrito-por"><p>Artigo Escrito Por Lorem</p></aside>
+            </article>
+            <article class="artigos">
+                <h2>Inflação Brasileira</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, ullam, deserunt, optio quod quibusdam quas consequatur commodi inventore sed unde adipisci ea. Facere, quae nihil voluptatem cumque blanditiis quia quis?. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis rerum, facere obcaecati reprehenderit veritatis nemo consequuntur neque laudantium cumque ea cum praesentium officiis eveniet iusto sapiente atque voluptatem nam minima!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat odio facere sunt neque, itaque delectus repudiandae perferendis autem optio quasi soluta eius in adipisci laborum tenetur harum non modi nisi!</p>
+                <aside class="escrito-por"><p>Artigo Escrito Por Lorem</p></aside>
+
+            </article>
+        </section>
+
+    </main>
+    <section class="footer-gradient">
+
+    </section>
+    <section id="footer-divison">
+        <h2 id="texto-footer-divison">Desenvolvido Por Enzo Rocha</h2>
+    </section>
+    <section class="footer-gradient"></section>
+    <footer>
+        <h1 id="Titulo_Rodape">Desenvolvido Por Curso Em Video</h1>
+        <h2 class="textos_rodape">Texto 1</h2>
+        <h2 class="textos_rodape">Texto 2</h2>
+        <h2 class="textos_rodape">Texto 3</h2>
+        <h2 class="textos_rodape">Texto 4</h2>
+    </footer>
+</body>
+</html>

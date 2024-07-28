@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags e semantic tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            background-color: #F8FFA5;
+        }
+        article#Caixa {
+            background-color: rgb(255, 255, 255);
+            width: 400px;
+            margin: auto;
+            padding: 1px 10px;
+            box-shadow: 3px 5px 4px black;
+        }
+        footer {
+            background-color: black;
+            width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #rodape {
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 4em;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>Link Link Link Link...</nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Titulo</h2>
+                <p>Texto do Artigo</p>
+            </article>
+            <article>
+                <h2>Titulo</h2>
+                <p>Texto Do Artigo</p>
+                <aside>
+                    Conteúdo periférico do ártigo
+                </aside>
+            </article>
+            <article id="Caixa">
+                <h1>Usando Sombras</h1>
+                <p>Vamos Aprender a usar sombras com esse exemplo simples.</p>
+            </article>
+        </section>
+        <aside>
+            Contéudo periférico do Site
+        </aside>
+    </main>
+    <footer>
+        Contéudo do rodapé
+        <h1 id="rodape">Rodapé</h1>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    font: 12pt Arial;
+    background-color: #B2BEBF;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20pt;
+}
+p.meio {
+    text-align: center;
+}
+
+p.dir {
+    text-align: right;
+}
+
+p.especial {
+    background-color: rgba(242, 255, 0, 0.464);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #3B3936;
+    color: white;
+}
+
+h1 {
+    color: #BD2A2E;
+}
+
+h2 {
+    color: #486966;
+}
+
+.HTML-E-CSS-BASICO {
+    text-align: center;
+    color: green;
+    background-color: white;
+}
+.HTML-E-CSS-INTERMEDIARIO {
+    text-align: center;
+    color: yellow;
+    background-color: white;
+}
+.HTML-E-CSS-AVANÇADO {
+    text-align: center;
+    color: red;
+    background-color: white;
+}

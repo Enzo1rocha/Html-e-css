@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body {
+    background-color: #FAFAD2;
+}
+
+h1 {
+    background-color: #DAA520;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #800000;
+    font-size: 40px;
+}
+
+h2 {
+    color: #800000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-size: 22px;
+    text-align: justify;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #551A94;
+}
+.Mobilidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avançar {
+    margin-left: 80%;
+}

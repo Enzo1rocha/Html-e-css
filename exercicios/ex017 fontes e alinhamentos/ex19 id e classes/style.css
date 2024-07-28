@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    font: 12pt Arial;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20pt;
+}
+p.meio {
+    text-align: center;
+}
+
+p.dir {
+    text-align: right;
+}
+
+p.especial {
+    background-color: rgba(242, 255, 0, 0.464);
+}
